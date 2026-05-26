@@ -1,11 +1,11 @@
 # README
 ## Article Information
 This repository provides access to the data and source code used for the manuscript    
-**Hidden labor of the reproductive caste in a highly structured termite society**  
+**Hidden role plasticity of the reproductive caste in a morphologically differentiated termite society**  
 **Nobuaki Mizumoto, Clement Het Kaliang, Taisuke Kanao**  
-**Paper DOI:** [TBA](XXX)
+**Paper DOI:** [10.1002/oik.12492](https://doi.org/10.1002/oik.12492)
 
-This study describes the brood transportation by nymphs of a marching termite, _Longipeditermes longipes_, while the rare nest relocation event. The ~8 hours of videos of nest relocation was analyzed using a event logging software, [BORIS](https://www.boris.unito.it/), to measure the time development of traffic flow, and a deep-learning posture tracking software, [SLEAP](https://sleap.ai), to investigate the movement patterns of nymphs with and without brood transportation. 
+This study describes the brood transportation by nymphs of a marching termite, _Longipeditermes longipes_, while the rare nest relocation event. The ~8 hours of videos of nest relocation were analyzed using an event logging software, [BORIS](https://www.boris.unito.it/), to measure the time development of traffic flow, and a deep-learning posture tracking software, [SLEAP](https://sleap.ai), to investigate the movement patterns of nymphs with and without brood transportation. 
 This repository includes data and the Python/R scripts.  
 Additional data available elsewhere includes, 
 - The models for SLEAP are available at TBA.
