@@ -10,6 +10,8 @@
   library(patchwork)
   library(RColorBrewer)
   library(ggridges)
+  library(viridis)
+  library(colorspace)
   
   library(lme4)
   library(car)
@@ -182,10 +184,6 @@
     group_by(caste, direction, item) %>%
     summarise(count = n(), .groups="drop") %>%
     mutate(prop = count / sum(count))
-  
-  # estimation of traffic of each caste/items
-  print(df_total * 10)
-  
   
   df_caste_out <- subset(df_flow, direction == "outbound") %>%
     group_by(caste, item) %>%

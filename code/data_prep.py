@@ -1,6 +1,7 @@
 import glob
 import os
 import math
+from pathlib import Path
 
 import pandas as pd
 
@@ -74,9 +75,10 @@ def data_filter(in_dir):
 #------------------------------------------------------------------------------#
 
 def main_data_filter():
-    data_place = "data_raw/sleap"
+    data_place = "data_raw/sleap_trajectory"
     df = data_filter(in_dir = data_place)
     filename = "df_nymph_speed.feather"
+    Path("data_fmt").mkdir(parents=True, exist_ok=True)
     df.reset_index().to_feather("data_fmt/" + filename)
 #------------------------------------------------------------------------------#
 
